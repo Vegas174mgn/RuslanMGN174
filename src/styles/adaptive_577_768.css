@@ -1,0 +1,65 @@
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        display: block;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .header-link:hover {
+        border: none;
+        cursor: pointer;
+    }
+
+    .container-flex {
+        height: 100%;
+        display: block;
+    }
+
+    .fvrt-books, .fvrt-games {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    .book, .game {
+        margin: 1vh auto;
+        width: 95%;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        background: rgba(41, 120, 230, 0.1);
+        min-height: 0;
+    }
+
+    .description {
+        padding: 1vh;
+    }
+
+    .container-grid {
+        display: block;
+        grid-template-rows: 100vh;
+        grid-template-columns: 1fr;
+    }
+
+    .personalInfo, .feedback {
+        padding: 1vh;
+    }
+
+    .personalInfo p, .feedback p {
+        text-align: left;
+    }
+
+    .title {
+        padding: 1vh;
+    }
+
+    .fvrt-film {
+        align-self: center;
+        justify-self: center;
+        margin: 1vh 0;
+    }
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.google.com/specimen/Roboto?subset=cyrillic-ext&noto.lang=bg_Cyrl&noto.script=Cyrl');
+
+:root {
+    --brd-param: 1px solid rgb(41, 120, 230);
+    --brd-radius: 2vh;
+}
+
+/*блок с книгами и играми*/
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1vh;
+}
+
+.fvrt-books, .fvrt-games {
+    margin: 1vh 1vw;
+    border: var(--brd-param);
+    border-radius: var(--brd-radius);
+    align-self: center;
+}
+
+.title {
+    padding: 1vh;
+}
+
+.book, .game {
+    margin: 0 1vh;
+    width: 20vw;
+    padding: 1vh;
+    border: var(--brd-param);
+    border-radius: var(--brd-radius);
+    background: rgba(41, 120, 230, 0.1);
+    min-height: 700px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    text-align: center;
+    font-size: 1rem;
+}
+
+/*блок с фильмами*/
+.fvrt-film {
+    align-self: center;
+    justify-self: center;
+    margin: 2vh 0;
+}
+
+.film {
+    margin: 0 2vw;
+    padding: 1vh;
+    border: var(--brd-param);
+    border-radius: 2vh;
+    min-height: 700px;
+}
+
+.film-description p {
+    padding: 0 0.5vh;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
