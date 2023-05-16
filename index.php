@@ -22,6 +22,8 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/flex-grid.css">
     <link rel="stylesheet" href="src/styles/switchBtn.css">
@@ -42,13 +44,11 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
     <div class="link">
         <a class="header-link" href="#grid">Любимые фильмы</a>
     </div>
-    <div class="link">
-        <a class="header-link" href="app/php/authorization.php">Авторизация</a>
-    </div>
-    <div class="link">
-        <a class="header-link" href="app/php/registration.php">Регистрация</a>
-    </div>
     <div class="container_btn">
+        <div class="link">
+            <a class="btn btn-outline-success" href="app/php/authorization.php">Войти</a>
+        </div>
+
         <img class="theme-icon" src="src/images/icons/day-and-night_<?php echo $_SESSION["theme"] ?>.png" alt="">
         <div class="switch-btn">
             <label class="switch">

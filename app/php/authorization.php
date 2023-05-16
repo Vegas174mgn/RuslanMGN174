@@ -22,7 +22,7 @@ if (isset($_POST["email"]) && isset($_POST["password"])) {
 
     // проверяем соответствие введенного логина и пароля с БД
     if ($email == $arr_db_result["email"] && $pass == $arr_db_result["pass"]) {
-        header('Location: ' . 'sayHello.php?login=' . $arr_db_result["name"]);
+        header('Location: http://my-site/index.php');
     } else {
         $authStatus = "Логин или пароль указаны не верно";
     }
