@@ -94,7 +94,14 @@ header {
     text-align: center;
     margin: 0 1vw;
     padding: 0;
-    width: 250px;
+    width: 210px;
+}
+
+.auth {
+    text-align: center;
+    margin: 0 1vw;
+    padding: 0;
+    width: 90px;
 }
 
 .sl-link {

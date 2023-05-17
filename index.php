@@ -43,7 +43,7 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
         <a class="header-link" href="#grid">Любимые фильмы</a>
     </div>
     <div class="container_btn">
-        <div class="link">
+        <div class="auth">
             <a class="header-link" href="app/php/authorization.php">Войти</a>
         </div>
 
