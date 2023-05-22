@@ -2,11 +2,11 @@
 
 namespace App;
 
-use App\db\DbHandler;
+use DbHandler;
 
 session_start();
 
-require_once "db/DbHandler.php";
+require_once "../db/DbHandler.php";
 
 $email = "";
 $equalsPass = "";
@@ -29,7 +29,7 @@ if (isset($_POST["passRepeat"])) {
         // добавляем нового пользователя в БД
         $db->insertUser($name, $email, $pass);
 
-        header("Location: http://my-site/app/php/authorization.php");
+        header("Location: http://my-site/app/view/authorization.php");
     } else {
         $equalsPass = "Пароли не совпадают, повторите ввод";
     }

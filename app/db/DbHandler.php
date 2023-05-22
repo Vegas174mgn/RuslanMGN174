@@ -1,10 +1,5 @@
 <?php
 
-namespace App\db;
-
-use PDO;
-use PDOStatement;
-
 require_once "Connection.php";
 
 class DbHandler
@@ -20,9 +15,9 @@ class DbHandler
     /**
      * Подключение к БД
      *
-     * @var Connection
+     * @var \Connection
      */
-    private Connection $connect;
+    private \Connection $connect;
 
     /**
      * Подключены ли к БД.
@@ -34,7 +29,7 @@ class DbHandler
     private function init(string $query): void
     {
         if (!$this->isConnected) {
-            $this->connect = Connection::getInstance();
+            $this->connect = \Connection::getInstance();
             $this->isConnected = true;
         }
 

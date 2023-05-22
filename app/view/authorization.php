@@ -2,11 +2,11 @@
 
 namespace App;
 
-use App\db\DbHandler;
+use DbHandler;
 
 session_start();
 
-require_once "db/DbHandler.php";
+require_once "../db/DbHandler.php";
 
 $authStatus = "";
 $emailValue = $_SESSION["emailValue"] ?? "";

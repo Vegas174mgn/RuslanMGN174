@@ -2,11 +2,11 @@
 
 namespace App;
 
-use App\db\DbHandler;
+use DbHandler;
 
 session_start();
 
-require_once "db/DbHandler.php";
+require_once "../db/DbHandler.php";
 
 $authStatus = "";
 $authStatusPass = "";
@@ -41,7 +41,7 @@ if (isset($_POST["password"]) && isset($_POST["password2"])) {
 
         $db->updateUserPassword($email, $password);
 
-        header("Location: http://my-site/app/php/authorization.php");
+        header("Location: http://my-site/app/view/authorization.php");
     } else {
         $authStatusPass = "Пароли не совпадают, повторите ввод";
     }
