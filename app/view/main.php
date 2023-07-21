@@ -108,9 +108,9 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
                 <h3>Ссылки на учебные проекты:</h3>
                 <ul>
                     <li><span class="hard_skills">JavaScript, React, Redux: </span>
-                        <a href="https://redux-comment-demo.netlify.app"></a>Виджет комментариев на React.
-                        Возможность добавлять/удалять комментарий, с сохранением списка комментариев, состояния
-                        приложения в localStorage в формате JSON
+                        <a href="https://redux-comment-demo.netlify.app" class="portfolio">Виджет комментариев на React.
+                            Возможность добавлять/удалять комментарий, с сохранением списка комментариев, состояния
+                            приложения в localStorage в формате JSON</a>
                     </li>
                 </ul>
             </div>

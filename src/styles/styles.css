@@ -78,6 +78,10 @@ header {
     font-size: 1.5rem;
 }
 
+.feedback {
+    font-size: 1.2rem;
+}
+
 .container-flex {
     grid-area: flex;
     display: flex;
@@ -140,7 +144,7 @@ header {
     padding: 1vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 .photo img, .cover img {
@@ -161,6 +165,7 @@ header {
 .personalInfo, .feedback {
     padding: 1vh;
     flex: 0 1 50%;
+    height: inherit;
 }
 
 .contents-h3 {
@@ -173,4 +178,8 @@ header {
 
 .soft_skills_list {
     list-style-type: none;
+}
+
+.portfolio {
+    color: var(--ft-color);
 }
