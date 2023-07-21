@@ -68,6 +68,7 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
         </div>
         <div class="info">
             <div class="personalInfo">
+                <h3 class="contents-h3">О себе</h3>
                 <p class="about">
                     Добрый день! Немного расскажу о себе. Работаю руководителем по ВЭД. Дополнительно я развиваю и
                     поддерживаю
@@ -80,23 +81,38 @@ $_SESSION["check"] = $_SESSION["theme"] == "lite" ? "" : "checked";
                     взгляд на
                     решение задач.
                     Выучился на JS-разработчика в Skillbox, поэтому немного умею в React. Заканчиваю факультет
-                    Java-разработки в
-                    Geekbrains, пишем интернет-магазин на Spring (будет pet-проект), учился Java на курсах JavaRush.
+                    Java-разработки в Geekbrains, учился Java на курсах JavaRush.
                     Быстро учусь и очень хочу работать и расти профессионально в IT.
                 </p>
             </div>
             <div class="feedback">
-                <p>
-                    На первом занятии понравилась общая дружелюбная атмосфера, внимание преподавателя ко всем ученикам,
-                    контент
-                    урока, практическая работа и её подробный разбор. Нет того, что можно было бы отметить как "не
-                    понравилось".
-                    В качестве предложения: занятие идет 3 часа и хорошо бы сделать перерывы между каждым часом по 5-7
-                    минут.
-                    Итого будет 2 перерыва общей длительностью 10-15 минут. Возможно так будет легче после трудового
-                    дня.
-                    Спасибо за урок!
-                </p>
+                <h3>Hard skills:</h3>
+                <ul>
+                    <li><span class="hard_skills">Языки программирования: </span>PHP, Java, JavaScript</li>
+                    <li><span class="hard_skills">Вёрстка: </span>HTML, CSS, Bootstrap</li>
+                    <li><span class="hard_skills">Фреймворки: </span>React, Bitrix, немного знаком со Spring</li>
+                    <li><span class="hard_skills">Системы контроля версий: </span>Git</li>
+                    <li><span class="hard_skills">Базы данных: </span>MySQL</li>
+                    <li><span class="hard_skills">Прочее: </span>ООП, Phpstorm, Intellij IDEA, Linux</li>
+                </ul>
+                <h3>Soft skills:</h3>
+                <ul>
+                    <li class="soft_skills_list"><span class="soft_skills">умение мыслить логически </span>мыслить
+                        творчески
+                        <span class="soft_skills">способность к самомотивации </span>хорошо оптимизирую процессы
+                        <span class="soft_skills">ответственно подхожу к решению любых задач </span> самостоятельно
+                        провожу аналитику и поиск решений
+                        <span class="soft_skills">быстро и легко обучаюсь </span>хорошо работаю в любой команде
+                    </li>
+                </ul>
+                <h3>Ссылки на учебные проекты:</h3>
+                <ul>
+                    <li><span class="hard_skills">JavaScript, React, Redux: </span>
+                        <a href="https://redux-comment-demo.netlify.app"></a>Виджет комментариев на React.
+                        Возможность добавлять/удалять комментарий, с сохранением списка комментариев, состояния
+                        приложения в localStorage в формате JSON
+                    </li>
+                </ul>
             </div>
         </div>
     </section>

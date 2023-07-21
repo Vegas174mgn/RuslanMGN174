@@ -74,6 +74,10 @@ header {
     height: var(--el-height);
 }
 
+.information {
+    font-size: 1.5rem;
+}
+
 .container-flex {
     grid-area: flex;
     display: flex;
@@ -149,11 +153,24 @@ header {
 }
 
 .info {
+    text-align: justify;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .personalInfo, .feedback {
     padding: 1vh;
-    margin: 1vh;
+    flex: 0 1 50%;
+}
+
+.contents-h3 {
+    text-align: center;
+}
+
+.hard_skills, .soft_skills {
+    color: red;
+}
+
+.soft_skills_list {
+    list-style-type: none;
 }
